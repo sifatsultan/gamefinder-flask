@@ -7,6 +7,6 @@
 ## Objectives
 Take game criteria inputs and see if there is any match with the games in 'data.txt'. List all the games that does match with the criteria.
 
-[Flask](https://raw.githubusercontent.com/sifatsultan/gamefinder-flask/master/img/gamefinder1xsm.jpg)
+![](https://raw.githubusercontent.com/sifatsultan/gamefinder-flask/master/img/gamefinder1xsm.jpg)
 
 ## Achievements
