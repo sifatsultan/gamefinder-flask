@@ -1,0 +1,18 @@
+Function {main}
+	try:
+		Open 'data.txt' in read mode as {f}ile
+		Load JSON from {f}ile as {data} list
+		Close {f}ile
+	except: 
+		Print "Either no file or no JSON!"
+		Initiate empty {data} list
+	
+	If there is {data}:
+		{html} = "<ul>"
+		Loop through each {game} in {data}:	
+			If {game}['name'] matches the {game_name} :
+				{html} += "<li>"+{game}+"</li>"
+		{html} += "</ul>"
+	Return this {html} back to the user
+
+Call function main()
